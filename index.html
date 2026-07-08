@@ -1,216 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MNS ELECTRO</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNS ELECTRO - Mehdi Namous Électroménager</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body{
-      background:#f7f7f7;
-      font-family:Arial,Helvetica,sans-serif;
-    }
-
-    .gold{
-      color:#f5b400;
-    }
-
-    .btn{
-      background:#f5b400;
-      color:#000;
-      padding:12px 22px;
-      border-radius:8px;
-      font-weight:bold;
-      transition:.3s;
-    }
-
-    .btn:hover{
-      transform:scale(1.05);
-    }
-
-    .card:hover{
-      transform:translateY(-8px);
-      transition:.3s;
-      box-shadow:0 20px 40px rgba(0,0,0,.15);
-    }
-  </style>
-
 </head>
 
-<body>
-
-<!-- HEADER -->
+<body class="bg-[#f7f7f7] text-black">
 
 <header class="bg-black text-white">
-
-<div class="max-w-7xl mx-auto flex justify-between items-center p-6">
-
-<h1 class="text-4xl font-black">
-<span class="gold">MNS</span> ELECTRO
-</h1>
-
-<nav class="space-x-8">
-
-<a href="#">Accueil</a>
-<a href="#">Produits</a>
-<a href="#">Promotions</a>
-<a href="#">Contact</a>
-
-</nav>
-
-</div>
-
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div>
+      <h1 class="text-3xl font-black text-yellow-400">MNS ELECTRO</h1>
+      <p class="text-sm">Mehdi Namous Électroménager</p>
+    </div>
+    <div class="text-right text-sm">
+      <p>📍 Grarem Gouga, Mila</p>
+      <p>📞 0772 54 17 90 / 0775 78 06 10</p>
+    </div>
+  </div>
 </header>
 
-<!-- HERO -->
-
 <section class="bg-black text-white">
+  <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="text-yellow-400 font-bold mb-3">BIENVENUE CHEZ</p>
+      <h2 class="text-5xl md:text-7xl font-black leading-tight">
+        MEHDI NAMOUS <br>
+        <span class="text-yellow-400">MNS ELECTRO</span>
+      </h2>
+      <p class="mt-6 text-xl">
+        Votre magasin d’électroménager et électronique au meilleur prix.
+      </p>
+      <a href="#produits" class="inline-block mt-8 bg-yellow-400 text-black font-bold px-8 py-4 rounded-lg">
+        Découvrir nos produits
+      </a>
+    </div>
 
-<div class="max-w-7xl mx-auto grid grid-cols-2 gap-12 items-center p-16">
-
-<div>
-
-<h2 class="text-6xl font-black mb-6">
-
-MEHDI NAMOUS
-
-<span class="gold block">
-MNS ELECTRO
-</span>
-
-</h2>
-
-<p class="text-xl mb-8">
-
-Votre magasin d'électroménager à Grarem Gouga.
-
-</p>
-
-<button class="btn">
-
-Découvrir nos produits
-
-</button>
-
-</div>
-
-<div>
-
-<img
-src="https://images.unsplash.com/photo-1582582429416-47d3d2d3f4a8?w=900"
-class="rounded-xl shadow-2xl">
-
-</div>
-
-</div>
-
+    <img class="rounded-2xl shadow-2xl"
+      src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1000"
+      alt="Électroménager">
+  </div>
 </section>
 
-<!-- CATEGORIES -->
-
-<section class="max-w-7xl mx-auto py-20">
-
-<h2 class="text-5xl font-black text-center mb-14">
-
-NOS <span class="gold">CATÉGORIES</span>
-
-</h2>
-
-<div class="grid grid-cols-4 gap-6">
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Réfrigérateurs</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Congélateurs</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Machines à laver</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Climatiseurs</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Téléviseurs</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Lave-vaisselle</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Cuisinières</div>
-
-<div class="bg-white rounded-xl p-8 shadow text-center">Hottes</div>
-
-</div>
-
+<section class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-6">
+  <div class="bg-white p-6 rounded-xl shadow text-center font-bold">🚚 Livraison rapide</div>
+  <div class="bg-white p-6 rounded-xl shadow text-center font-bold">✅ Produits garantis</div>
+  <div class="bg-white p-6 rounded-xl shadow text-center font-bold">💰 Meilleurs prix</div>
+  <div class="bg-white p-6 rounded-xl shadow text-center font-bold">☎️ Service client</div>
 </section>
 
-<!-- PRODUITS -->
+<section class="max-w-7xl mx-auto px-6 py-10">
+  <h2 class="text-4xl font-black text-center mb-10">
+    NOS <span class="text-yellow-500">CATÉGORIES</span>
+  </h2>
 
-<section class="max-w-7xl mx-auto pb-20">
-
-<h2 class="text-5xl font-black text-center mb-14">
-
-NOS <span class="gold">PRODUITS</span>
-
-</h2>
-
-<div class="grid grid-cols-4 gap-8">
-
-<div class="card bg-white rounded-xl shadow p-6">
-
-<img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=600">
-
-<h3 class="font-bold mt-4">
-Réfrigérateur Condor
-</h3>
-
-<p class="gold text-3xl font-black mt-3">
-85 000 DA
-</p>
-
-</div>
-
-<div class="card bg-white rounded-xl shadow p-6">
-
-<img src="https://images.unsplash.com/photo-1586201375761-83865001e31b?w=600">
-
-<h3 class="font-bold mt-4">
-Congélateur Condor
-</h3>
-
-<p class="gold text-3xl font-black mt-3">
-42 300 DA
-</p>
-
-</div>
-
-<div class="card bg-white rounded-xl shadow p-6">
-
-<img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600">
-
-<h3 class="font-bold mt-4">
-Machine à laver
-</h3>
-
-<p class="gold text-3xl font-black mt-3">
-76 000 DA
-</p>
-
-</div>
-
-<div class="card bg-white rounded-xl shadow p-6">
-
-<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600">
-
-<h3 class="font-bold mt-4">
-Lave-vaisselle
-</h3>
-
-<p class="gold text-3xl font-black mt-3">
-79 800 DA
-</p>
-
-</div>
-
-</div>
-
+  <div class="grid md:grid-cols-4 gap-5">
+    <button onclick="filterProducts('all')" class="cat bg-black text-white border border-yellow-400 p-6 rounded-xl font-black">TOUS</button>
+    <button onclick="filterProducts('refrigerateur')" class="cat bg-white p-6 rounded-xl font-black shadow">RÉFRIGÉRATEURS</button>
+    <button onclick="filterProducts('congelateur')" class="cat bg-white p-6 rounded-xl font-black shadow">CONGÉLATEURS</button>
+    <button onclick="filterProducts('machine')" class="cat bg-white p-6 rounded-xl font-black shadow">MACHINES À LAVER</button>
+    <button onclick="filterProducts('climatiseur')" class="cat bg-white p-6 rounded-xl font-black shadow">CLIMATISEURS</button>
+    <button onclick="filterProducts('tv')" class="cat bg-white p-6 rounded-xl font-black shadow">TÉLÉVISEURS</button>
+    <button onclick="filterProducts('lave')" class="cat bg-white p-6 rounded-xl font-black shadow">LAVE VAISSELLE</button>
+    <button onclick="filterProducts('cuisine')" class="cat bg-white p-6 rounded-xl font-black shadow">CUISINE</button>
+  </div>
 </section>
+
+<section id="produits" class="max-w-7xl mx-auto px-6 py-10">
+  <h2 class="text-4xl font-black text-center mb-10">
+    NOS <span class="text-yellow-500">PRODUITS</span>
+  </h2>
+
+  <div id="products" class="grid md:grid-cols-4 gap-8">
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="refrigerateur">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=600" />
+      <p class="text-gray-500">CRDN670ZX</p>
+      <h3 class="font-black">RÉFRIGÉRATEUR 670L ZX CONDOR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">85 000 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="congelateur">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1586201375761-83865001e31b?w=600" />
+      <p class="text-gray-500">CFH-MT26G</p>
+      <h3 class="font-black">CONGÉLATEUR 260L CONDOR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">42 300 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="machine">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600" />
+      <p class="text-gray-500">WAF-DB45ICLIT</p>
+      <h3 class="font-black">MACHINE À LAVER 12KG CONDOR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">76 000 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="lave">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600" />
+      <p class="text-gray-500">CLV-LUX16X</p>
+      <h3 class="font-black">LAVE VAISSELLE 16 COUVERTS CONDOR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">79 800 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="climatiseur">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1631545806609-cb8a9f25a229?w=600" />
+      <p class="text-gray-500">GS12-AL84ST3</p>
+      <h3 class="font-black">CLIMATISEUR 12000 BTU CONDOR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">72 700 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="tv">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600" />
+      <p class="text-gray-500">G5010</p>
+      <h3 class="font-black">TV 50” 4K GOOGLE TV IRIS</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">67 800 DA</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="cuisine">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600" />
+      <p class="text-gray-500">CUISINE</p>
+      <h3 class="font-black">CUISINIÈRE 4 FEUX + FOUR</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">Bon prix</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+    <div class="product bg-white rounded-xl shadow p-5 text-center" data-category="cuisine">
+      <img class="h-48 w-full object-contain mb-4" src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=600" />
+      <p class="text-gray-500">HOTTE</p>
+      <h3 class="font-black">HOTTE ASPIRANTE 90CM</h3>
+      <p class="text-yellow-500 text-3xl font-black my-4">Bon prix</p>
+      <a class="bg-black text-white px-4 py-3 rounded-lg block font-bold" href="https://wa.me/213772541790" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-black text-white py-12 mt-10">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+    <div>
+      <h3 class="text-yellow-400 text-2xl font-black mb-4">MNS ELECTRO</h3>
+      <p>Votre magasin d’électroménager à Grarem Gouga.</p>
+    </div>
+    <div>
+      <h3 class="text-yellow-400 font-black mb-4">CONTACT</h3>
+      <p>📍 Grarem Gouga, Mila, Algérie</p>
+      <p>📞 0772 54 17 90</p>
+      <p>📞 0775 78 06 10</p>
+    </div>
+    <div>
+      <h3 class="text-yellow-400 font-black mb-4">MARQUES</h3>
+      <p>Condor • Iris • Brandt • ENIEM • Raylan • Cristor • Maxwell</p>
+    </div>
+  </div>
+</section>
+
+<script>
+function filterProducts(category) {
+  const products = document.querySelectorAll('.product');
+  products.forEach(product => {
+    if (category === 'all' || product.dataset.category === category) {
+      product.style.display = 'block';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+</script>
 
 </body>
 </html>
